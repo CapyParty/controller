@@ -24450,7 +24450,7 @@ class Ej {
         if (!qe.isSupported) return;
         const e = hj();
         qe.set("twitchState", e);
-        const r = "yn2iepd23vskpmkzgeg2lkfsct7gsc";
+        const r = "z6t14ua1os2zbci9gxtz0dnd9f5iwd";
         let n = `https://${window.location.hostname}`;
         window.location.hostname === "localhost" && (n = "http://localhost:9090/");
         let i = "https://id.twitch.tv/oauth2/authorize";
