@@ -15161,7 +15161,7 @@ const N3 = [{
         isPublic: !0,
         directory: "pp2/fibbage2"
     }, {
-        name: "Earwax",
+        name: "Zoomerwax",
         tag: "earwax",
         wrapper: "marionette",
         isPublic: !0,
@@ -15199,7 +15199,7 @@ const N3 = [{
         categoryId: "TeeKOGame",
         shopItems: ["shirts"]
     }, {
-        name: "Quiplash 2",
+        name: "Blindlash 2",
         tag: "quiplash2",
         wrapper: "marionette",
         isPublic: !0,
@@ -15327,7 +15327,7 @@ const N3 = [{
         directory: "pp6/pushthebutton",
         categoryId: "PushTheButtonGame"
     }, {
-        name: "Talking Points",
+        name: "Cursed Points",
         tag: "jackbox-talks",
         wrapper: "marionette",
         isPublic: !0,
@@ -15338,7 +15338,7 @@ const N3 = [{
         name: "Quiplash 3",
         tag: "quiplash3",
         wrapper: "marionette",
-        isPublic: !0,
+        isPublic: !1,
         directory: "pp7/quiplash3",
         features: ["moderation"],
         categoryId: "quiplash3Game"
@@ -24592,7 +24592,7 @@ const mj = {
         },
         WARNING: {
             DELETE: "Are you sure you want to delete this episode?",
-            TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
+            TOS: "By sharing content, you agree to Jackbox Games' [tos]Terms of Service[/tos]",
             TOS_AGREE: "agree and share"
         },
         BACK_TO_EPISODES: "back to episodes",
@@ -35992,7 +35992,7 @@ const wae = {
     Uae = {
         APPEARANCE: "APPEARANCE",
         DARK: "dark",
-        HELP: "HELP",
+        HELP: "DOWNLOADS",
         TWITCH: "TWITCH",
         LIGHT: "light",
         LOGOUT: "LOGOUT",
@@ -36103,7 +36103,7 @@ from your past games list.`,
     jae = {
         APPEARANCE: "APPARENCE",
         DARK: "sombre",
-        HELP: "AIDE",
+        HELP: "TÉLÉCHARGEMENTS",
         TWITCH: "TWITCH",
         LIGHT: "clair",
         LOGOUT: "DÉCONNEXION",
@@ -36214,7 +36214,7 @@ de votre liste d'anciennes parties.`,
     aoe = {
         APPEARANCE: "ASPETTO",
         DARK: "scuro",
-        HELP: "AIUTO",
+        HELP: "SCARICARE",
         TWITCH: "TWITCH",
         LIGHT: "chiaro",
         LOGOUT: "ESCI",
@@ -36325,7 +36325,7 @@ dalla lista dei giochi precedenti.`,
     Toe = {
         APPEARANCE: "DARSTELLUNG",
         DARK: "Dunkel",
-        HELP: "HILFE",
+        HELP: "DOWNLOADS",
         TWITCH: "TWITCH",
         LIGHT: "Hell",
         LOGOUT: "ABMELDEN",
@@ -36436,7 +36436,7 @@ deiner bisherigen Spiele entfernen.`,
     Noe = {
         APPEARANCE: "APARIENCIA",
         DARK: "oscura",
-        HELP: "AYUDA",
+        HELP: "DESCARGAS",
         TWITCH: "TWITCH",
         LIGHT: "clara",
         LOGOUT: "CERRAR SESIÓN",
@@ -36547,7 +36547,7 @@ de tu lista de partidas anteriores.`,
     Woe = {
         APPEARANCE: "APARIENCIA",
         DARK: "oscura",
-        HELP: "AYUDA",
+        HELP: "DESCARGAS",
         TWITCH: "TWITCH",
         LIGHT: "clara",
         LOGOUT: "CERRAR SESIÓN",
@@ -36658,7 +36658,7 @@ de tu lista de partidas anteriores.`,
     ile = {
         APPEARANCE: "TEMA",
         DARK: "escuro",
-        HELP: "AJUDA",
+        HELP: "BAIXAR",
         TWITCH: "TWITCH",
         LIGHT: "claro",
         LOGOUT: "DESCONECTAR",
@@ -37605,7 +37605,7 @@ const Sue = Ur(Tue, [
         methods: {
             async load() {
                 try {
-                    const e = await (await fetch("https://cdn.jackboxgames.com/banners.json")).json(),
+                    const e = await (await fetch("/stuff/banners/banners.json")).json(),
                         r = (e == null ? void 0 : e.bannerAds) ?? [];
                     this.banners = r.filter(this.isValidBanner.bind(this)).map(n => ({
                         url: n.href,
@@ -37875,7 +37875,7 @@ function ife(t, e, r, n, i, s) {
         onKeyup: e[0] || (e[0] = so((...c) => t.onTwitchLoginClick && t.onTwitchLoginClick(...c), ["enter"])),
         onClick: e[1] || (e[1] = yn((...c) => t.onTwitchLoginClick && t.onTwitchLoginClick(...c), ["prevent"]))
     }, Je(t.$t("MENU.TWITCH")), 33)])), ve("li", Zue, [ve("a", Que, Je(t.$t("MENU.MODERATOR")), 1)]), ve("li", null, [ve("a", {
-        href: "http://help.jackboxgames.com",
+        href: "http://main.capyparty.xyz",
         target: "_blank",
         onClick: e[4] || (e[4] = c => t.onLinkClick("help"))
     }, Je(t.$t("MENU.HELP")), 1)]), ve("li", null, [ve("a", {
@@ -37893,20 +37893,14 @@ function ife(t, e, r, n, i, s) {
         class: "facebook",
         "aria-label": "facebook",
         target: "_blank",
-        href: "https://www.facebook.com/JackboxGames",
-        onClick: e[8] || (e[8] = c => t.onLinkClick("https://www.facebook.com/JackboxGames"))
+        href: "https://discord.gg/eqrTgjszuq",
+        onClick: e[8] || (e[8] = c => t.onLinkClick("https://discord.gg/eqrTgjszuq"))
     }), ve("a", {
         class: "twitter",
         "aria-label": "twitter",
         target: "_blank",
-        href: "https://twitter.com/jackboxgames",
-        onClick: e[9] || (e[9] = c => t.onLinkClick("https://twitter.com/jackboxgames"))
-    }), ve("a", {
-        class: "instagram",
-        "aria-label": "instagram",
-        target: "_blank",
-        href: "https://www.instagram.com/playjackboxgames",
-        onClick: e[10] || (e[10] = c => t.onLinkClick("https://www.instagram.com/playjackboxgames"))
+        href: "https://github.com/CapyParty/controller",
+        onClick: e[9] || (e[9] = c => t.onLinkClick("https://github.com/CapyParty/controller"))
     })]), ve("li", rfe, [ve("a", nfe, Je(t.version), 1)])])])
 }
 const sfe = Ur(zue, [

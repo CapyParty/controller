@@ -13807,14 +13807,14 @@ const _g = "production",
         branch: "main",
         sha: "c6ffc543bef04baa3516df1c2fea4fca33db2a0d",
         lastUpdated: 1716388451487,
-        version: "5.456.206",
+        version: "5.456.206-Capy",
         type: "production"
     },
     bg = {
         main: {
             sha: "c6ffc543bef04baa3516df1c2fea4fca33db2a0d",
             lastUpdated: 1716388451487,
-            version: "5.456.206",
+            version: "5.456.206-Capy",
             type: "production",
             bundles: {
                 "@connect": {
@@ -13935,7 +13935,7 @@ const _g = "production",
                     file: "script.js",
                     css: ["assets/style-0.css"],
                     base: "main/pp3/quiplash2",
-                    version: "5.10.0"
+                    version: "5.10.0-Capy"
                 },
                 triviadeath: {
                     file: "script.js",
@@ -14049,7 +14049,7 @@ const _g = "production",
                     file: "script.js",
                     css: ["assets/style-0.css"],
                     base: "main/pp7/jackboxtalks",
-                    version: "5.25.0"
+                    version: "5.25.0-Capy"
                 },
                 quiplash3: {
                     file: "script.js",
