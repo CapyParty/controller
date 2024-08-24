@@ -24483,7 +24483,7 @@ class Ej {
             const n = await (await fetch("https://api.twitch.tv/helix/users", {
                 headers: {
                     Authorization: `Bearer ${e}`,
-                    "Client-ID": "yn2iepd23vskpmkzgeg2lkfsct7gsc"
+                    "Client-ID": "z6t14ua1os2zbci9gxtz0dnd9f5iwd"
                 }
             })).json();
             if (!n || !n.data) return null;
