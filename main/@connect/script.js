@@ -15161,7 +15161,7 @@ const N3 = [{
         isPublic: !0,
         directory: "pp2/fibbage2"
     }, {
-        name: "Zoomerwax",
+        name: "Earmaxxing",
         tag: "earwax",
         wrapper: "marionette",
         isPublic: !0,
@@ -35960,7 +35960,7 @@ const wae = {
         CONSENT_MODAL: {
             ARIA: "Cookie consent form"
         },
-        DESCRIPTION: "We use cookies to improve your game experience and analyze website traffic. Find out more in our [pp]Privacy Policy[/pp].",
+        DESCRIPTION: "Jackbox Games use cookies to improve your game experience and analyze website traffic. Find out more in their [pp]Privacy Policy[/pp].",
         REJECT_ALL: "Opt out"
     },
     Iae = {
@@ -36043,7 +36043,7 @@ from your past games list.`,
     kae = {
         CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
         STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-        TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+        TOS: "By clicking {submit}, you agree to Jackbox Games' [tos]Terms of Service[/tos]"
     },
     Gae = {
         BRANCH: wae,

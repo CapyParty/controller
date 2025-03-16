@@ -9,7 +9,8 @@
         {
             "start": "2020-01-11",
             "text": "Our first mod! Download now!",
-            "src": "/stuff/banners/blindlash2out.png"
+            "src": "/stuff/banners/blindlash2out.png",
+            "href": "https://main.capyparty.xyz/downloads"
         },
         {
             "start": "2022-01-11",
